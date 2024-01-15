@@ -6,7 +6,7 @@
     <RootNamespace>Leetcode_Blind_75</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject></StartupObject>
+    <StartupObject>Leetcode_Blind_75._2_Best_Time_to_Buy_and_Sell_Stock</StartupObject>
   </PropertyGroup>
 
 </Project>

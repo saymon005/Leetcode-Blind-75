@@ -10,9 +10,16 @@ namespace Leetcode_Blind_75
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Enter Size: ");
             int size = Convert.ToInt32(Console.ReadLine()); 
-            string[] inputArray = new string[size];
+            //int[] nums = new int[size];
+            /*for (int i=0; i<size; i++)
+            {
+                nums[i] = Convert.ToInt32(Console.Read());
+            }*/
+            string[] inputArray = Console.ReadLine().Split(' ');
             int[] nums = Array.ConvertAll(inputArray, int.Parse);
+
             HashSet<int> s = new HashSet<int>();
             for(int i=0; i< nums.Length; i++)
             {

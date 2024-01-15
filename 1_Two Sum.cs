@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Leetcode_Blind_75
 {
-    public class Two_Sum
+    public class _1_Two_Sum
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Enter array size:");
 
@@ -57,16 +55,16 @@ namespace Leetcode_Blind_75
             //return null
             Console.WriteLine("Expected Output:");
 
-            if (flg==1)
+            if (flg == 1)
             {
                 foreach (int i in ans)
                 {
                     Console.Write(i + " ");
                 }
             }
-            
+
 
             Console.ReadLine();
-        }
+    }
     }
 }
